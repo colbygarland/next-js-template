@@ -12,6 +12,7 @@ export const PageHead = ({ title = PAGE_TITLE, description = PAGE_DESCRIPTION }:
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
+        <meta name="og:description" content={description} />
       </Head>
     </>
   );
